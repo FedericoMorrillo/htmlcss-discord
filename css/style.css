@@ -9,26 +9,6 @@
 
 /*debug*/
 
-.contenitore {
-    height: 390px;
-}
-
-.box1 {
-    background: #1e90ff;
-    border: 1px dashed black;
-}
-
-.box2 {
-    background: #ffc0cb;
-    border: 1px dashed black;
-}
-
-main :nth-child(4)>.contenitore {
-    background-color: #228b22;
-    border: 1px dashed black;
-    height: 548px;
-}
-
 footer>.contenitore {
     background-color: yellow;
     border: 1px dashed black;
@@ -68,10 +48,14 @@ h1 {
     padding-bottom: 30px;
     font-size: 38px;
 }
-h2{
+
+h2 {
     color: black;
     font-size: 34px;
     padding-bottom: 30px
+}
+h3{
+    padding-bottom: 20px;
 }
 p {
     line-height: 25px;
@@ -91,7 +75,7 @@ p {
 .box-bianco {
     background-color: white;
     border-radius: 40px;
-    
+
 }
 
 .box-nero {
@@ -99,9 +83,31 @@ p {
     border-radius: 40px;
 }
 
+.box-azzurro {
+    background-color: #7289da;
+    border-radius: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    width: 150px;
+    padding: 10px 0;
+}
+.box-azzurro > a{
+    color: white;
+}
+
 .box-bianco>a {
     color: black;
-   
+
+}
+
+.background {
+    background-color: #f6f6f6;
+}
+
+.contenitore {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0px;
 }
 
 /*common*/
@@ -133,15 +139,18 @@ p {
 .intestazione {
     width: 620px;
     text-align: center;
-    margin: 100px auto 70px auto;
+    margin: 100px auto 40px auto;
     padding: 0 5px;
-color: white;
+    color: white;
 }
-.intestazione >.box {
+
+.intestazione>.box {
     justify-content: center;
     padding: 10px 0;
 }
-.intestazione  .box-bianco, .box-nero{
+
+.intestazione .box-bianco,
+.box-nero {
     margin: 8px 5px;
     padding: 4px 0;
 }
@@ -156,21 +165,17 @@ header {
 
 /*main*/
 
-.contenitore {
-    width: 800px;
-    margin: 0 auto;
-    padding: 20px 0;
-}
 
 .box1 {
     width: 60%;
     height: 100%;
-    
+
 }
 
-.box1 >img {
+img {
     width: 100%;
 }
+
 .box2 {
     width: 40%;
     padding: 20px 5px
@@ -180,13 +185,9 @@ main :nth-child(2)>.contenitore>.box2 {
     order: -1;
 }
 
-main :nth-child(2) {
-    background-color: #d3d3d3;
-}
-
-main :nth-child(4) {
-    background-color: #d3d3d3;
-    padding: 20px 0;
+.contenitore-big {
+    padding: 50px 0 0 0;
+    text-align: center;
 }
 
 /*main*/
