@@ -1,0 +1,181 @@
+/* reset*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*reset*/
+
+/*debug*/
+.login {
+    background-color: #add8e6;
+}
+
+.login-box {
+    background-color: #daa520;
+    border: 1px dashed black;
+}
+
+.intestazione {
+    height: 200px;
+    background-color: #ee82ee;
+    border: 1px dashed;
+}
+
+.contenitore {
+    height: 340px;
+}
+
+.box1 {
+    background: #1e90ff;
+    border: 1px dashed black;
+}
+
+.box2 {
+    background: #ffc0cb;
+    border: 1px dashed black;
+}
+
+main :nth-child(4)>.contenitore {
+    background-color: #228b22;
+    border: 1px dashed black;
+    height: 548px;
+}
+
+footer>.contenitore {
+    background-color: yellow;
+    border: 1px dashed black;
+}
+
+.large {
+    border: 1px dashed black;
+    background-color: #f08080;
+    height: 100%;
+}
+
+.small {
+    border: 1px dashed white;
+    background-color: #20b2aa;
+    height: 100%;
+}
+
+.sezione-footer {
+    background: #7fffd4;
+    border: 1px dashed white;
+}
+
+.sezione-footer>.box {
+    border: 1px dashed black;
+    background-color: #ffb6c1;
+}
+
+/*debug*/
+/*body*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header*/
+.navbox {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.login-box {
+    margin: 10px 0 10px 0;
+    width: 200px;
+    display: flex;
+    padding: 5px;
+}
+
+#linkbox {
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#login-button {
+    justify-content: flex-end;
+}
+
+.intestazione {
+    width: 600px;
+
+    margin: 20px auto 0;
+}
+
+header {
+    padding-bottom: 20px;
+    background: #00008b;
+}
+
+/*header*/
+
+/*main*/
+
+.contenitore {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 0;
+}
+
+.box1 {
+    width: 60%;
+    height: 100%;
+}
+
+.box2 {
+    width: 40%;
+    height: 100%;
+}
+
+main :nth-child(2)>.contenitore>.box2 {
+    order: -1;
+}
+
+main :nth-child(2) {
+    background-color: #d3d3d3;
+}
+
+main :nth-child(4) {
+    background-color: #d3d3d3;
+    padding: 20px 0;
+}
+
+/*main*/
+
+/*footer*/
+
+.footer {
+    background-color: #23272a;
+    padding: 5px 0 0 0;
+}
+
+.info {
+
+    padding: 0;
+}
+
+.large {
+    width: 60%;
+}
+
+.small {
+    width: 40%;
+}
+
+footer>.contenitore {
+    padding: 0px;
+}
+
+.sezione-footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 10px auto 0;
+    padding: 15px 0 15px 0;
+}
