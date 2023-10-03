@@ -10,7 +10,7 @@
 /*debug*/
 
 .contenitore {
-    height: 340px;
+    height: 390px;
 }
 
 .box1 {
@@ -65,10 +65,14 @@ body {
 
 h1 {
     color: white;
-    padding-bottom: 20px;
-    font-size: 40px;
+    padding-bottom: 30px;
+    font-size: 38px;
 }
-
+h2{
+    color: black;
+    font-size: 34px;
+    padding-bottom: 30px
+}
 p {
     line-height: 25px;
 }
@@ -161,11 +165,15 @@ header {
 .box1 {
     width: 60%;
     height: 100%;
+    
 }
 
+.box1 >img {
+    width: 100%;
+}
 .box2 {
     width: 40%;
-    height: 100%;
+    padding: 20px 5px
 }
 
 main :nth-child(2)>.contenitore>.box2 {
