@@ -8,11 +8,6 @@
 /*reset*/
 
 /*debug*/
-.intestazione {
-    height: 250px;
-    background-color: #ee82ee;
-    border: 1px dashed;
-}
 
 .contenitore {
     height: 340px;
@@ -62,21 +57,52 @@ footer>.contenitore {
 }
 
 /*debug*/
-/*body*/
+/*common*/
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-a{
+h1 {
     color: white;
-text-decoration: none;
-padding: 5px 20px 0 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
 }
 
+p {
+    line-height: 25px;
+}
+
+.font-link {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.box-bianco {
+    background-color: white;
+    border-radius: 40px;
+    
+}
+
+.box-nero {
+    background-color: black;
+    border-radius: 40px;
+}
+
+.box-bianco>a {
+    color: black;
+   
+}
+
+/*common*/
 /*header*/
 .navbox {
-    display: flex;
     justify-content: space-around;
     margin: 0 auto;
     max-width: 1000px;
@@ -84,8 +110,7 @@ padding: 5px 20px 0 20px;
 
 .login-box {
     margin: 10px 0 10px 0;
-    width: 200px;
-    display: flex;
+    width: 250px;
     padding: 10px 5px 5px 5px;
 }
 
@@ -98,26 +123,23 @@ padding: 5px 20px 0 20px;
 #login-button {
     justify-content: flex-end;
     font-size: 14px;
-}
-.box-bianco{
-    background-color: white;
-border-radius: 40px;
-display: flex;
-align-items: center;
-justify-content: center;
-padding-bottom: 5px;
-}
-.box-bianco >a {
-    color: black;
-}
-.box-nero{
-    background-color: black;
+    width: 90px;
 }
 
 .intestazione {
-    width: 600px;
-
-    margin: 100px auto 0;
+    width: 620px;
+    text-align: center;
+    margin: 100px auto 70px auto;
+    padding: 0 5px;
+color: white;
+}
+.intestazione >.box {
+    justify-content: center;
+    padding: 10px 0;
+}
+.intestazione  .box-bianco, .box-nero{
+    margin: 8px 5px;
+    padding: 4px 0;
 }
 
 header {
@@ -133,7 +155,6 @@ header {
 .contenitore {
     width: 800px;
     margin: 0 auto;
-    display: flex;
     padding: 20px 0;
 }
 
@@ -187,7 +208,6 @@ footer>.contenitore {
 }
 
 .sezione-footer {
-    display: flex;
     justify-content: space-between;
     max-width: 800px;
     margin: 10px auto 0;
