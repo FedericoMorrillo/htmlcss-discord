@@ -7,36 +7,6 @@
 
 /*reset*/
 
-/*debug*/
-
-footer>.contenitore {
-    background-color: yellow;
-    border: 1px dashed black;
-}
-
-.large {
-    border: 1px dashed black;
-    background-color: #f08080;
-    height: 100%;
-}
-
-.small {
-    border: 1px dashed white;
-    background-color: #20b2aa;
-    height: 100%;
-}
-
-.sezione-footer {
-    background: #7fffd4;
-    border: 1px dashed white;
-}
-
-.sezione-footer>.box {
-    border: 1px dashed black;
-    background-color: #ffb6c1;
-}
-
-/*debug*/
 /*common*/
 
 body {
@@ -54,8 +24,17 @@ h2 {
     font-size: 34px;
     padding-bottom: 30px
 }
-h3{
+
+h3 {
     padding-bottom: 20px;
+}
+
+.text-blue {
+    color: #2d4794;
+
+}
+.text-white{
+    color: white;
 }
 p {
     line-height: 25px;
@@ -91,7 +70,8 @@ p {
     width: 150px;
     padding: 10px 0;
 }
-.box-azzurro > a{
+
+.box-azzurro>a {
     color: white;
 }
 
@@ -110,6 +90,17 @@ p {
     padding: 20px 0px;
 }
 
+.icona {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-font {
+    font-size: 12px;
+}
+ul{
+  list-style: none;
+}
 /*common*/
 /*header*/
 .navbox {
@@ -206,19 +197,37 @@ main :nth-child(2)>.contenitore>.box2 {
 
 .large {
     width: 60%;
+    padding: 20px;
 }
 
 .small {
     width: 40%;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 25px;
+    
 }
-
+a{
+    color:white;
+    text-decoration: none;
+}
 footer>.contenitore {
     padding: 0px;
 }
-
+.contenitore-footer{
+    width: 80%;
+}
 .sezione-footer {
     justify-content: space-between;
     max-width: 800px;
     margin: 10px auto 0;
-    padding: 15px 0 15px 0;
+    padding: 0 0 15px 0;
+    border-top:2px solid blue;
+}
+.sezione-footer > .box-azzurro{
+    margin:10px 0;
+    width: 100px;
+}
+.icone{
+    padding: 5px;
 }
